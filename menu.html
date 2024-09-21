@@ -7,11 +7,60 @@
   <meta name="robots" content="noindex">
   <meta name="googlebot" content="noindex">
 
+  <style>
+    @font-face {
+      font-family: 'ArialRounded';
+      src: URL('./arialroundedmtbold.ttf') format('truetype');
+    }
+
+    .prices-container {
+      background-image: url('./menu-digital.jpg');
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+    }
+
+    .prices-container>div {
+      position: absolute;
+      font-family: 'ArialRounded';
+      font-size: 28px;
+      font-weight: 500;
+      left: 1758px;
+      /*letter-spacing: -1.5px;*/
+      color: #fff;
+    }
+
+    .acp {
+      top: 513px;
+    }
+
+    .acpa {
+      top: 610px;
+    }
+
+    .ga {
+      top: 707px;
+    }
+
+    .l {
+      top: 807px;
+    }
+
+    .promo {
+      top: 903px;
+    }
+  </style>
 </head>
 
 <body style="margin: 0px; height: 100%;">
   <div style="display: flex; justify-content: center; height: 100vh; align-items: center;">
-    <h1 style="padding: 50px">EL MENU</h1>
+    <div class="prices-container">
+      <div class="acp">2400</div>
+      <div class="acpa">2400</div>
+      <div class="ga">1000</div>
+      <div class="l">3000</div>
+      <div class="promo">3000</div>
+    </div>
   </div>
 </body>
 
